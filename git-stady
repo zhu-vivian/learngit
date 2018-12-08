@@ -7,4 +7,5 @@ git add readme.txt
 git log //查看修改记录
 git log --pretty=oneline //在一行查看
 git reset --hard HEAD
-
+git checkout --readme.txt 撤消修改
+git rm // delete the file.
