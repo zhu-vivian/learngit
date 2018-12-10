@@ -16,6 +16,3 @@ git clone git@github.com:zhu-vivian/......git
 git checkout -b dev //Create a mew branch. Switched a new branch 'dev'. The '-b' means switched and use this branch.
 git merge dev //合并分支
 git branch -D dev //Delete the branch 'dev' and use '-d' is unuseful.
-git checkout -b dev
-git clone 
-git llllllll
