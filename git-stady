@@ -1,18 +1,22 @@
+git config --global user.name 'your name'
+git config --global user.email 'your email address'
 git init
 git add readme.txt
 git commit -m "wrote a readme file."
 git status
 git diff readme.txt
+git diff HEAD^^^^^~100
 git add readme.txt
 git log //查看修改记录
 git log --pretty=oneline //在一行查看
-git reset --hard HEAD
+git reset --hard HEAD^^^^^~1000
 git checkout -- readme.txt 撤消修改
 git rm // delete the file.
 git remote add origin git@github.com:zhu-vivian/learngit.git
 git push -u origin master
 git push origin master
 git clone git@github.com:zhu-vivian/......git
-git checkout -b dev //Create a mew branch. Switched a new branch 'dev'. The '-b' means switched and use this branch.
+//Create a mew branch. Switched a new branch 'dev'. The '-b' means switched and use this branch.
+git checkout -b dev
 git merge dev //合并分支
 git branch -D dev //Delete the branch 'dev' and use '-d' is unuseful.
