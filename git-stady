@@ -27,3 +27,4 @@ git show ab0adf... git-stady
 git diff master remote/master
 git diff master origin/master
 git diff --stat master origin/master
+ssh-keygen -t rsa -C "youremail@example.com"
