@@ -28,3 +28,6 @@ git diff master remote/master
 git diff master origin/master
 git diff --stat master origin/master
 ssh-keygen -t rsa -C "youremail@example.com"
+git fetch origin //Upgrade the remote branch
+git log master origin/master //Look the log
+git diff --stat master origin/master
